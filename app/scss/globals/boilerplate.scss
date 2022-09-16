@@ -25,4 +25,8 @@ body {
 	@include breakpoint-down(small) {
 		background: url(../images/bg-pattern-top-mobile.svg) no-repeat;
 	}
+
+	@include breakpoint(large) {
+		overflow-y: hidden;
+	}
 }
